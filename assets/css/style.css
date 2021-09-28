@@ -1,0 +1,91 @@
+ * {
+     font-family: 'Scheherazade New', serif;
+ }
+
+ #Arrow-up {
+     color: white;
+ }
+
+ #accordion {
+     border: deeppink;
+     color: blueviolet;
+     border: none;
+     cursor: -moz-zoom-out;
+ }
+
+ #dcv {
+     color: white;
+     background-color: darkslateblue;
+ }
+
+ #pgrh {
+     animation-name: but;
+     transition: 1s;
+     -webkit-transition: 1s;
+     -moz-transition: 1s;
+     -ms-transition: 1s;
+     -o-transition: 1s;
+     animation-timing-function: linear;
+     animation-direction: alternate;
+ }
+
+ #dcv:hover {
+     filter: opacity(100%);
+     border-radius: 18px;
+     -webkit-filter: opacity(100%);
+ }
+
+ @keyframes but {
+     to {
+         transform: translateX(20px);
+         -webkit-transform: translateX(20px);
+         -moz-transform: translateX(20px);
+         -ms-transform: translateX(20px);
+         -o-transform: translateX(20px);
+     }
+ }
+
+ #contact {
+     box-shadow: #343a40 7px -4px 6px 3px, rgb(0 0 0 / 36%) -2px -1px 12px 4px;
+ }
+
+ #mogy {
+     transition: 0.5s;
+     filter: opacity(0%);
+     -webkit-filter: opacity(0%);
+ }
+
+ #mogy:hover {
+     transition: 0.5s;
+     filter: opacity(100%);
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+ }
+
+ #mog {
+     transition: 3s;
+     filter: grayscale(100%);
+     -webkit-filter: grayscale(100%);
+     -webkit-transition: 3s;
+     -moz-transition: 3s;
+     -ms-transition: 3s;
+     -o-transition: 3s;
+ }
+
+ #mog:hover {
+     transition: 0.5s;
+     filter: grayscale(0%);
+     -webkit-filter: grayscale(0%);
+ }
+
+ #pgr {
+     transition: 0.5s;
+     filter: blur(100%);
+ }
+
+ section {
+     transition: 0.5s;
+     filter: blur(100%);
+ }
